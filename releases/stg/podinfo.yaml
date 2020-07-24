@@ -18,8 +18,4 @@ spec:
       repository: tkkwok/podinfo
       tag: dev-gwkdq4sq
     replicaCount: 0
-    hpa:
-      enabled: true
-      maxReplicas: 10
-      cpu: 50
-      memory: 256Mi
+   
