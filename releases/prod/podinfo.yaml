@@ -5,7 +5,7 @@ metadata:
   name: podinfo-prod
   namespace: prod
   annotations:
-    fluxcd.io/automated: "false"
+    fluxcd.io/automated: "true"
     filter.fluxcd.io/chart-image: semver:~0.4
 spec:
   releaseName: podinfo-prod
@@ -17,4 +17,4 @@ spec:
     image:
       repository: tkkwok/podinfo
       tag: dev-gwkdq4sq
-    replicaCount: 1
+    replicaCount: 2
