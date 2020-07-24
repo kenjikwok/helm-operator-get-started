@@ -15,9 +15,9 @@ spec:
     ref: master
   values:
     image:
-      repository: stefanprodan/podinfo
-      tag: stg-9ij63o4c
-    replicaCount: 2
+      repository: tkkwok/podinfo
+      tag: dev-gwkdq4sq
+    replicaCount: 1
     hpa:
       enabled: true
       maxReplicas: 10
