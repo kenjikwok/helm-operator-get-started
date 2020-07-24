@@ -17,4 +17,4 @@ spec:
     image:
       repository: tkkwok/podinfo
       tag: dev-gwkdq4sq
-    replicaCount: 2
+    replicaCount: 0
