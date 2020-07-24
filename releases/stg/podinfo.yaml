@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: tkkwok/podinfo
-      tag: stg-9ij63o4c
+      tag: dev-gwkdq4sq
     replicaCount: 2
     hpa:
       enabled: true
